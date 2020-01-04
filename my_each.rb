@@ -28,7 +28,7 @@
 def my_each(words)
   counter = 0 
   while counter < words.length
-    puts "arguments"
+    yield words[counter]
   counter += 1 
   end
 end
