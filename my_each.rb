@@ -31,4 +31,5 @@ def my_each(words)
     yield words[counter]
   counter += 1 
   end
+  words
 end
