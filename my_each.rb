@@ -30,4 +30,5 @@ def my_each(words)
   while counter < words.length
     puts "arguments"
   counter += 1 
+  end
 end
